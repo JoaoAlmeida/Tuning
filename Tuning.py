@@ -123,4 +123,4 @@ class_names = ['1', '2', '3', '4', '5']
 plt.figure()
 plot_confusion_matrix(c2, classes=class_names, normalize=False, title='Confusion matrix SVM - Clean Review')
 
-plt.savefig('svm kernel.png')
+plt.savefig('confusion matrix.png')
